@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <h1>TO DO:</h1>
-    <ToDo/>
-    <ToDo/>
-    <ToDo/>
-    <ToDo/>
+    <ToDo key="1" />
+    <ToDo key="2"/>
+    <ToDo key="3"/>
+    <ToDo key="4"/>
   </div>
 </template>
 
@@ -15,7 +15,8 @@ export default {
   name: "App",
   components: {
     ToDo
-  }
+  },
+  
 };
 </script>
 
