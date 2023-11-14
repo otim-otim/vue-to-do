@@ -6,17 +6,14 @@
   </div>
 </template>
 
-<script>
-const data = {
-  message: "",
-  completed: false
-};
+<script setup lang="ts">
+import {ref} from 'vue'
 
-export default {
-  data() {
-    return data;
-  }
-};
+  const message = ref('')
+  const completed = ref(false)
+
+
+
 </script>
 
 <style scoped>
