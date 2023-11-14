@@ -7,15 +7,14 @@
 </template>
 
 <script>
-const data = {
-  message: "",
-  completed: false
-};
 
 export default {
   data() {
-    return data;
-  }
+    return {
+  message: "",
+  completed: false
+}
+  },
 };
 </script>
 
